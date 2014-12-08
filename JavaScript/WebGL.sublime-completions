@@ -18,7 +18,7 @@
 		{ "trigger": "blendEquationSeparate", "contents": "blendEquationSeparate( ${1:enum modeRGB}, ${2:enum modeAlpha} )" },
 		{ "trigger": "blendFunc", "contents": "blendFunc( ${1:enum sfactor}, ${2:enum dfactor} )" },
 		{ "trigger": "blendFuncSeparate", "contents": "blendFuncSeparate( ${1:enum srcRGB}, ${2:enum dstRGB}, ${3:enum srcAlpha}, ${4:enum dstAlpha} )" },
-		{ "trigger": "bufferData", "contents": "bufferData( ${1:enum target}, ${2:long size}, ${3:enum usage} )" },
+		{ "trigger": "bufferData", "contents": "bufferData( ${1:enum target}, ${2:Object arrayBuffer}, ${3:enum usage} )" },
 		{ "trigger": "bufferSubData", "contents": "bufferSubData( ${1:enum target}, ${2:long offset}, ${3:Object data} )" },
 		{ "trigger": "checkFramebufferStatus", "contents": "checkFramebufferStatus( ${1:enum target} )" },
 		{ "trigger": "clear", "contents": "clear( ${1:ulong mask} )" },

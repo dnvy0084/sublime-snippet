@@ -1,12 +1,14 @@
 <snippet>
 	<content><![CDATA[
-function ${1:function_name}(${2:})
-{
-	${0:}	
-};
+<script type="x-shader/x-vertex" id="${1:vertexShader}">
+	void main( void )
+	{
+		${2://gl_Position = some position};
+	}
+</script>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>function</tabTrigger>
+	<tabTrigger>x-vertex</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
