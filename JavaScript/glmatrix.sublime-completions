@@ -27,6 +27,8 @@
 		{ "trigger": "vec2.transformMat2d", "contents": "vec2.transformMat2d( ${1:out}, ${2:a}, ${3:m} )" },
 		{ "trigger": "vec2.transformMat3", "contents": "vec2.transformMat3( ${1:out}, ${2:a}, ${3:m} )" },
 		{ "trigger": "vec2.transformMat4", "contents": "vec2.transformMat4( ${1:out}, ${2:a}, ${3:m} )" },
+		
+
 		{ "trigger": "vec3.create", "contents": "vec3.create()" },
 		{ "trigger": "vec3.clone", "contents": "vec3.clone( ${1:a} )" },
 		{ "trigger": "vec3.fromValues", "contents": "vec3.fromValues( ${1:x}, ${2:y}, ${3:z} )" },
@@ -52,6 +54,8 @@
 		{ "trigger": "vec3.rotateX", "contents": "vec3.rotateX( ${1:out}, ${2:a}, ${3:b}, ${4:c} )" },
 		{ "trigger": "vec3.rotateY", "contents": "vec3.rotateY( ${1:out}, ${2:a}, ${3:b}, ${4:c} )" },
 		{ "trigger": "vec3.rotateZ", "contents": "vec3.rotateZ( ${1:out}, ${2:a}, ${3:b}, ${4:c} )" },
+
+
 		{ "trigger": "vec4.create", "contents": "vec4.create()" },
 		{ "trigger": "vec4.clone", "contents": "vec4.clone( ${1:a} )" },
 		{ "trigger": "vec4.fromValues", "contents": "vec4.fromValues( ${1:x}, ${2:y}, ${3:z}, ${4:w} )" },
@@ -72,6 +76,8 @@
 		{ "trigger": "vec4.normalize", "contents": "vec4.normalize( ${1:out}, ${2:a} )" },
 		{ "trigger": "vec4.transformMat4", "contents": "vec4.transformMat4( ${1:out}, ${2:a}, ${3:m} )" },
 		{ "trigger": "vec4.transformQuat", "contents": "vec4.transformQuat( ${1:out}, ${2:a}, ${3:q} )" },
+		
+
 		{ "trigger": "mat2.create", "contents": "mat2.create()" },
 		{ "trigger": "mat2.clone", "contents": "mat2.clone( ${1:a} )" },
 		{ "trigger": "mat2.copy", "contents": "mat2.copy( ${1:out}, ${2:a} )" },
@@ -80,6 +86,8 @@
 		{ "trigger": "mat2.invert", "contents": "mat2.invert( ${1:out}, ${2:a} )" },
 		{ "trigger": "mat2.adjoint", "contents": "mat2.adjoint( ${1:out}, ${2:a} )" },
 		{ "trigger": "mat2.scale", "contents": "mat2.scale( ${1:out}, ${2:a}, ${3:v} )" },
+		
+
 		{ "trigger": "mat2d.create", "contents": "mat2d.create()" },
 		{ "trigger": "mat2d.clone", "contents": "mat2d.clone( ${1:a} )" },
 		{ "trigger": "mat2d.copy", "contents": "mat2d.copy( ${1:out}, ${2:a} )" },
@@ -87,6 +95,8 @@
 		{ "trigger": "mat2d.invert", "contents": "mat2d.invert( ${1:out}, ${2:a} )" },
 		{ "trigger": "mat2d.scale", "contents": "mat2d.scale( ${1:out}, ${2:a}, ${3:v} )" },
 		{ "trigger": "mat2d.translate", "contents": "mat2d.translate( ${1:out}, ${2:a}, ${3:v} )" },
+		
+
 		{ "trigger": "mat3.create", "contents": "mat3.create()" },
 		{ "trigger": "mat3.fromMat4", "contents": "mat3.fromMat4( ${1:out}, ${2:a} )" },
 		{ "trigger": "mat3.clone", "contents": "mat3.clone( ${1:a} )" },
@@ -98,6 +108,8 @@
 		{ "trigger": "mat3.translate", "contents": "mat3.translate( ${1:out}, ${2:a}, ${3:v} )" },
 		{ "trigger": "mat3.scale", "contents": "mat3.scale( ${1:out}, ${2:a}, ${3:v} )" },
 		{ "trigger": "mat3.fromMat2d", "contents": "mat3.fromMat2d( ${1:out}, ${2:a} )" },
+		
+
 		{ "trigger": "mat4.create", "contents": "mat4.create()" },
 		{ "trigger": "mat4.clone", "contents": "mat4.clone( ${1:a} )" },
 		{ "trigger": "mat4.copy", "contents": "mat4.copy( ${1:out}, ${2:a} )" },
@@ -113,6 +125,8 @@
 		{ "trigger": "mat4.rotateX", "contents": "mat4.rotateX( ${1:out}, ${2:a}, ${3:rad} )" },
 		{ "trigger": "mat4.rotateY", "contents": "mat4.rotateY( ${1:out}, ${2:a}, ${3:rad} )" },
 		{ "trigger": "mat4.rotateZ", "contents": "mat4.rotateZ( ${1:out}, ${2:a}, ${3:rad} )" },
+		
+
 		{ "trigger": "quat.create", "contents": "quat.create()" },
 		{ "trigger": "quat.identity", "contents": "quat.identity( ${1:out} )" },
 		{ "trigger": "quat.setAxisAngle", "contents": "quat.setAxisAngle( ${1:out}, ${2:axis}, ${3:rad} )" },
