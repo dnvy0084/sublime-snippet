@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-getShaderParameter( ${1:Object shader}, ${2:Enum pname} );
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>getShaderParameter</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
-</snippet>
