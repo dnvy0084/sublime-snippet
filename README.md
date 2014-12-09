@@ -1,6 +1,10 @@
 sublime-snippet
 ===============
 
-snippet files for sublimet text2 
+code completion and snippet files for sublimet text2 
 
-path = C:\Users\Administrator\AppData\Roaming\Sublime Text 2\Packages\User
+file path = C:\Users\Administrator\AppData\Roaming\Sublime Text 2\Packages\User
+
+webgl api completion
+gl-matrix.js completion
+javascript function, self invoked function, util
