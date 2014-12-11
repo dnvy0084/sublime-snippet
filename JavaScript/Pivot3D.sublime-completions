@@ -1,0 +1,18 @@
+{
+	"scope": "source.js",
+
+	"completions":
+	[
+		{ "trigger": "Pivot3D", "contents": "Pivot3D( ${1:x}, ${2:y}, ${3:z} )" },
+
+		"x",
+		"y",
+		"z", 
+		"rotationX", 
+		"rotationY", 
+		"rotationZ",
+		"scaleX", 
+		"scaleY", 
+		"scaleZ"
+	]
+}
