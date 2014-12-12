@@ -107,6 +107,7 @@
 		{ "trigger": "mat3.adjoint", "contents": "mat3.adjoint( ${1:out}, ${2:a} )" },
 		{ "trigger": "mat3.translate", "contents": "mat3.translate( ${1:out}, ${2:a}, ${3:v} )" },
 		{ "trigger": "mat3.scale", "contents": "mat3.scale( ${1:out}, ${2:a}, ${3:v} )" },
+		{ "trigger": "mat3.rotate", "contents": "mat3.rotate( ${1:out}, ${2:a}, ${3:radian} )" },
 		{ "trigger": "mat3.fromMat2d", "contents": "mat3.fromMat2d( ${1:out}, ${2:a} )" },
 		
 

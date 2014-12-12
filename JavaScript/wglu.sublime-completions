@@ -1,0 +1,10 @@
+{
+	"scope": "source.js",
+
+	"completions":
+	[
+		{ "trigger": "wglu.createBuffer", "contents": "wglu.createBuffer( ${1:Object gl}, ${2:enum target}, ${3:Float32Array bufferData}, ${4:enum usage} )" },
+		{ "trigger": "wglu.createProgram", "contents": "wglu.createProgram( ${1:Object gl}, ${2:string vertexSoruce}, ${3:string fragmentSource} )" },
+		{ "trigger": "wglu.makeAndCompileShader", "contents": "wglu.makeAndCompileShader( ${1:Object gl}, ${2:enum type}, ${3:string source} )" }
+	]
+}
