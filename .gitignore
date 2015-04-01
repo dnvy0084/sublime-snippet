@@ -1,0 +1,6 @@
+# git ignore
+*.sublime-keymap
+*.sublime-build
+*.last-run
+*.sublime-settings
+
