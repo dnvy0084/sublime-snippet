@@ -1,0 +1,5 @@
+{
+	"cmd": ["grunt"],
+	"result_line_regex": "^ *\\[javac\\] (.+):([0-9]+):() (.*)$",
+	"working_dir": "${project_path:${folder}}"
+}

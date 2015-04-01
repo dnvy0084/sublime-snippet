@@ -1,0 +1,12 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Emmet",
+		"Lua Love",
+		"Package Control",
+		"SublimeCodeIntel"
+	]
+}
